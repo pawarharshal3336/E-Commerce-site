@@ -1,0 +1,42 @@
+/* Reset some default browser styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic layout styles */
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product-image {
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
